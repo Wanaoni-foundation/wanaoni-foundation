@@ -2,4 +2,8 @@ version: 1
 options:
   output: json
   quiet: false
+version: 1
+options:
+  output: json
+  quiet: false
 
