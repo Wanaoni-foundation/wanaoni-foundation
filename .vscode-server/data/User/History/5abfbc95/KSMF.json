@@ -1,0 +1,90 @@
+{
+    "workbench.colorTheme": "Default High Contrast Light",
+    "grunt.autoDetect": "on",
+    "launch": {
+        "configurations": [
+            {
+                "name": "Launch Edge",
+                "request": "launch",
+                "type": "msedge",
+                "url": "http://localhost:8080",
+                "webRoot": "${workspaceFolder}"
+            },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+        ]
+    },
+    "gitlens.graph.onlyFollowFirstParent": true,
+    "gitlens.sortRepositoriesBy": "lastFetched:desc",
+    "gitlens.views.launchpad.files.compact": false,
+    "gitlens.views.patchDetails.files.layout": "list",
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "": true
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "files.exclude"
+    ],
+    "cloudcode.duetAI.project": "gen-lang-client-0197218917",
+    "cloudcode.autoDependencies": "off",
+    "git.openRepositoryInParentFolders": "always",
+    "remote.SSH.useCurlAndWgetConfigurationFiles": true,
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.alwaysShowEditorActions": true,
+    "workbench.editor.autoLockGroups": {
+        "default": true,
+        "workbench.editor.chatSession": true
+    },
+    "workbench.editor.centeredLayoutFixedWidth": true,
+    "workbench.editor.closeOnFileDelete": true,
+    "githubPullRequests.remotes": [
+        "origin",
+        "upstream",
+        "",
+        ""
+    ],
+    "dev.containers.executeInWSL": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "git.allowNoVerifyCommit": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.allowForcePush": true,
+    "git.ignoreMissingGitWarning": true,
+    "git.ignoreRebaseWarning": true,
+    "git.ignoreSubmodules": true,
+    "cloudcode.project": "sturdy-willow-437107-p7",
+    "gitlens.ai.experimental.model": "openai:gpt-4-turbo",
+    "cmake.options.advanced": {
+        "workflow": {},
+        "testPreset": {},
+        "build": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        },
+        "launch": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        },
+        "debug": {
+            "statusBarVisibility": "inherit",
+            "inheritDefault": "visible"
+        }
+    },
+    "git.autofetch": true,
+    "genieai.enableConversationHistory": true,
+    "genieai.promptPrefix.customPrompt2-enabled": true,
+    "genieai.response.showNotification": true,
+    "workbench.editorAssociations": {
+        "*.8814cb6cab024b119ab991ad7acd74f4df7bc68bbf86c0903c8be9852a5baa55": "default",
+        "*.905f83845e25579fd4c6ae4bdc81a2740a216023f856918045ced4508329c941": "default"
+    },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "terminal.integrated.sendKeybindingsToShell": true
+}

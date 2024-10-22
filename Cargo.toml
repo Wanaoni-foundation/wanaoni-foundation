@@ -1,0 +1,32 @@
+[package]
+name = "my-rust-project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "my-rust-project"
+path = "src/main.rs"
+[package]
+name = "my-rust-project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "my-rust-project"
+path = "src/main.rs"
+mkdir -p src
+nano src/main.rs
+fn main() {
+    println!("Hello, world!");
+}
+[package]
+name = "my-rust-project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
